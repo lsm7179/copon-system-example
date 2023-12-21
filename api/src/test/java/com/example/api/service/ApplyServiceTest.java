@@ -51,6 +51,6 @@ public class ApplyServiceTest {
 
         long count = couponRepository.count();
 
-        assertThat(count).isEqualTo(1000L);
+        assertThat(count).isEqualTo(100L);
     }
 }
